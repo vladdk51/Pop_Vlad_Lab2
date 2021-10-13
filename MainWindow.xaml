@@ -37,7 +37,7 @@
                 <Label x:Name="lblType" Content="Type" Canvas.Left="155" Canvas.Top="7" RenderTransformOrigin="0.512,1.537"/>
                 <ComboBox x:Name="cmbType" Canvas.Left="209" Canvas.Top="9" Width="167"/>
                 <Label x:Name="lblPrice" Content="Price" Canvas.Left="435" Canvas.Top="7" RenderTransformOrigin="0.129,0.635"/>
-                <TextBox x:Name="txtPrice" Canvas.Left="487" Canvas.Top="11" Text="0" TextWrapping="Wrap" Width="75" IsReadOnly="True"/>
+                <TextBox x:Name="txtPrice" Canvas.Left="484" Canvas.Top="11" Text="0" TextWrapping="Wrap" Width="75" IsReadOnly="True"/>
                 <ListBox x:Name="lstSale" Height="67" Width="564" Canvas.Left="10" Canvas.Top="41"/>
                 <Label x:Name="lblTotal" Content="Total" Canvas.Left="416" Canvas.Top="124" RenderTransformOrigin="0.005,0.511"/>
                 <TextBox x:Name="txtTotal" Canvas.Left="459" Canvas.Top="128" Text="0" TextWrapping="Wrap" Width="88" FontWeight="Normal" IsReadOnly="True" Height="16"/>
