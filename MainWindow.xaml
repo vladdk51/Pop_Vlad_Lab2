@@ -23,11 +23,11 @@
         <GroupBox x:Name="gbFilled_" Header="Filled" Margin="270,81,64,217" FontWeight="Bold" Grid.Column="1" FontFamily="RelishPro 2">
             <Canvas>
                 <Label x:Name="lblLemonFilled" Content="Lemon" Canvas.Left="10" Canvas.Top="10" FontWeight="Normal"/>
-                <TextBox x:Name="txtLemonFilled" Canvas.Left="104" Canvas.Top="14" Text="0" TextWrapping="Wrap" Width="297" IsReadOnly="True" FontWeight="Normal"/>
+                <TextBox x:Name="txtLemonFilled" Canvas.Left="104" Canvas.Top="14" Text="0" TextWrapping="Wrap" Width="297" IsReadOnly="True" FontWeight="Normal" Height="20"/>
                 <Label x:Name="lblChocolateFilled" Content="Chocolate" Canvas.Left="10" Canvas.Top="44" FontWeight="Normal" FontFamily="RelishPro 2"/>
-                <TextBox x:Name="txtChocolateFilled" Canvas.Left="105" Canvas.Top="48" Text="0" TextWrapping="Wrap" Width="296" IsReadOnly="True" FontWeight="Normal"/>
+                <TextBox x:Name="txtChocolateFilled" Canvas.Left="105" Canvas.Top="48" Text="0" TextWrapping="Wrap" Width="296" IsReadOnly="True" FontWeight="Normal" Height="20"/>
                 <Label x:Name="lblVanillaFilled" Content="Vanilla" Canvas.Left="10" Canvas.Top="77" FontWeight="Normal" FontFamily="RelishPro 2"/>
-                <TextBox x:Name="txtVanillaFilled" Canvas.Left="104" Canvas.Top="81" Text="0" TextWrapping="Wrap" Width="297" IsReadOnly="True" FontWeight="Normal"/>
+                <TextBox x:Name="txtVanillaFilled" Canvas.Left="104" Canvas.Top="81" Text="0" TextWrapping="Wrap" Width="297" IsReadOnly="True" FontWeight="Normal" Height="20"/>
             </Canvas>
         </GroupBox>
         <GroupBox x:Name="gbSale" Header="Current Sale" Grid.Column="1" Margin="22,233,64,24" FontWeight="Bold" FontFamily="RelishPro 2">
