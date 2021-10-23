@@ -19,24 +19,23 @@ namespace Pop_Vlad_Lab2
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    { 
+    {
+        private DoughnutMachine myDoughnutMachine;
+        private int mRaisedGlazed;
+        private int mRaisedSugar;
+        private int mFilledLemon;
+        private int mFilledChocolate;
+        private int mFilledVanilla;
         public MainWindow()
         {
             InitializeComponent();   
         }
-        private DoughnutMachine myDoughnutMachine;
 
         private void frmMain_Loaded(object sender, RoutedEventArgs e)
         {
             myDoughnutMachine = new DoughnutMachine();
             myDoughnutMachine.DoughnutComplete += new DoughnutMachine.DoughnutCompleteDelegate(DoughnutCompleteHandler);
         }
-
-        private int mRaisedGlazed;
-        private int mRaisedSugar;
-        private int mFilledLemon;
-        private int mFilledChocolate;
-        private int mFilledVanilla;
 
         private void glazedToolStripMenuItem_Click(object sender, RoutedEventArgs e)
         {
@@ -71,7 +70,7 @@ namespace Pop_Vlad_Lab2
 
                 case DoughnutType.Chocolate:
                     mFilledChocolate++;
-                    txtChocolateFilled.Text = mFilledLemon.ToString();
+                    txtChocolateFilled.Text = mFilledChocolate.ToString();
                     break;
 
                 case DoughnutType.Vanilla:

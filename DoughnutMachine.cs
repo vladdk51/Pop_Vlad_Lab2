@@ -89,6 +89,18 @@ namespace Pop_Vlad_Lab2
                 mFlavor = value;
             }
         }
+        private float mPrice = .50F;
+        private float Price
+        {
+            get
+            {
+                return mPrice;
+            }
+            set
+            {
+                mPrice = value;
+            }
+        }
         private readonly DateTime mTimeOfCreation;
         public DateTime TimeOfCreation
         {
